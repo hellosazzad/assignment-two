@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-iteam-container{
+        flex-direction: column;
+    }
+    .nav-iteam-container a{
+        margin-top: 20px;
+    }
+    
+    
+    
+}
