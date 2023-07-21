@@ -179,7 +179,7 @@ margin: 0%;
 .complex-banner-text{
     
     width: 50%;
-    padding: 100px 120px 100px 0;
+    padding: 100px 140px 100px 0;
     text-align: right;
     margin: 0 auto 0;
     
@@ -467,6 +467,33 @@ text-align: center;
     margin-right: 230px;
     margin-left: 200px;
     color: #FFFFFF;
+}
+.social-links{
+    display: flex;
+}
+.social-links a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+    margin: 0 30px;
+    border-radius: 50%;
+    position: relative;
+
+
+}
+.social-links a .fab-brands{
+    font-size: 30px;
+    line-height: 80px;
+
+}
+.social-links a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    
 }
 
 

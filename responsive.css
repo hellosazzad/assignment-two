@@ -54,6 +54,10 @@
         margin-top: 10px;
         position: absolute;
       }
+      .social-links{
+        flex-direction: column;
+        
+      }
       
     
     
