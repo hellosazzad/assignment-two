@@ -14,14 +14,15 @@ body{
     height: 80px;
    
     display: flex;
-    align-items: center;
+    align-items:center;
     max-width: 1400px;
-    margin: 0 auto;   
+    /* margin: 0 auto;    */
 }
 .nav-iteam-container{
-    width: 40%;
+    /* width: 40%; */
     display: flex;
-    justify-content: space-between;
+    justify-content:end;
+    margin-left: 200px;
     
 }
 
@@ -103,7 +104,8 @@ body{
 }
 .banner-img{
     
-    width: 40%;
+    width: 45%;
+    height: 50%;
 }
 .click-icone{
     color: red;
@@ -150,10 +152,7 @@ margin: 0%;
     margin: 0%;
     
 }
-.banner-img{
-    
-    
-}
+
 .banner-img img{
     width: 100%;
 }
@@ -202,6 +201,125 @@ font-weight: 700;
 line-height: 45px;
 
 }
+/* main section */
+.video{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+  
+}
+/* card */
+
+  
+  .text-image-section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  .text-title-img{
+    font-weight:bold;
+   font-size: 52px;
+  
+  }
+  .text-title-color{
+    color:#da00ee
+  }
+  
+  .image {
+    flex: 1; /* Takes the available space */
+    padding: 20px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+.position{
+    position: relative;
+    bottom:-660px;
+    right: 50px;
+    width: 180px;
+    height: 160px;
+   
+}
+ 
+.flex{
+    display: flex;
+   
+}
+.bg-car{
+    background:rgb(252, 51, 201);
+       height: 700px;
+       margin-top: 60px;
+       margin-bottom: 60px;
+
+}
+
+.car-image{
+   width: 860px;
+   height: 100%;
+  
+}
+.text-title-header{
+    text-align: center;
+}
+.title-s {
+   font-weight:bold;
+   font-size: 45px;
+}
+.text-size-f{
+   font-weight: 400px;
+   font-size: 45px;
+   margin-bottom: 10px;
+}
+.style-car-div{
+   align-items: right;
+   width: 960px;
+   height: 444px;
+   color: rgb(255, 255, 255);
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+.text-flex{
+    display: flex;
+    gap:100px;
+}
+.bt{
+    font-size: 20px;
+    color: #da00ee;
+    width: 280px;
+    height: 64px;
+    background: #f8f8f8;
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Two columns in the grid */
+    grid-gap: 20px; /* Gap between the cards */
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .im{
+    width: 30px;
+  }
 /* Compound section start */
 .game-img-icone{
     display: flex;
@@ -298,6 +416,54 @@ text-align: right;
 line-height: 30px;
 width: 353px;
 }
+/* footer */
+.footer{
+    display: flex;
+    text-align: center;
+    height: 577px;
+    gap: 200px;
+background: #0c0246;
+}
+.foot-style{
+   
+   margin-left: 400px;
+   margin-right: 100px;
+}
+.foter-logo{
+font-weight: 700px;
+font-size: 45px;
+color: #F8F8F8;
+text-align: center;
+}
+.footer-flex{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.game-type{
+    display: flex;
+    color: #f0f0f0;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+
+
+.play-g{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-right: 230px;
+    margin-left: 200px;
+    color: #FFFFFF;
+}
+
+
 /* 
 Start  END
 */

@@ -12,6 +12,49 @@
     }
    
     
+    .video {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        gap: 20px; 
+        padding: 20px; 
+      
+      }
+      .text-image-section {
+        align-items: center;  
+      }
+      
+      .image {
+        margin-top: 20px;
+      }
+    
+      .position {
+        position: static; 
+        margin-bottom: 20px; 
+      }
+      .flex{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    
+      .style-car-div {
+        margin: 20px; 
+      }
+      
+      .text-flex {
+        gap: 10px; 
+      }
+      .bt{
+        font-size: 20px;
+        color: #da00ee;
+        width: 280px;
+        height: 64px;
+        background: #f8f8f8;
+        border-radius: 30px;
+        margin-top: 10px;
+        position: absolute;
+      }
+      
     
     
 }
